@@ -21,14 +21,15 @@
  ! CDDL HEADER END
  !
  !      Copyright 2011 ForgeRock AS
+ !      Portions Copyrighted 2019 Open Source Solution Technology Corporation
  !    
  -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.forgerock.commons</groupId>
+    <groupId>jp.openam.commons</groupId>
     <artifactId>i18n-framework</artifactId>
-    <version>1.4.2</version>
+    <version>1.4.3-SNAPSHOT</version>
   </parent>
   <artifactId>i18n-core</artifactId>
   <name>ForgeRock I18N Core</name>
@@ -46,7 +47,7 @@
     </resources>
     <plugins>
       <plugin>
-        <groupId>org.forgerock.commons</groupId>
+        <groupId>jp.openam.commons</groupId>
         <artifactId>i18n-maven-plugin</artifactId>
         <version>${project.version}</version>
         <executions>
