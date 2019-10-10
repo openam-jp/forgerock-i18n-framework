@@ -36,17 +36,6 @@
   <packaging>maven-plugin</packaging>
   <name>ForgeRock I18N Maven Plugin</name>
   <description>A Maven plugin which generates I18N messages from property files</description>
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>jp.openam.commons</groupId>
-        <artifactId>forgerock-bom</artifactId>
-        <version>4.1.2-SNAPSHOT</version>
-        <scope>import</scope>
-        <type>pom</type>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
   <dependencies>
     <dependency>
       <groupId>org.apache.maven</groupId>
