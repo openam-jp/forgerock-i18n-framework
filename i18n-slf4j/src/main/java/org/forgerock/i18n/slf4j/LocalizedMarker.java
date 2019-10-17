@@ -12,11 +12,14 @@
  * information: "Portions Copyrighted [year] [name of copyright owner]".
  *
  *      Copyright 2014 ForgeRock AS
+ *      
+ *      Portions Copyrighted 2019 OGIS-RI Co., Ltd.
  */
 package org.forgerock.i18n.slf4j;
 
 import java.util.Collections;
 import java.util.Iterator;
+import java.util.Set;
 
 import org.forgerock.i18n.LocalizableMessage;
 import org.slf4j.Marker;
@@ -84,8 +87,9 @@ public class LocalizedMarker implements Marker {
 
     /** {@inheritDoc} */
     @Override
-    public Iterator<?> iterator() {
-        return Collections.emptySet().iterator();
+    public Iterator<Marker> iterator() {
+        Set<Marker> emptySet = Collections.emptySet();
+        return emptySet.iterator();
     }
 
     /** {@inheritDoc} */
