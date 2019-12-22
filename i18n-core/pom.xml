@@ -29,7 +29,7 @@
   <parent>
     <groupId>jp.openam.commons</groupId>
     <artifactId>i18n-framework</artifactId>
-    <version>1.4.3-SNAPSHOT</version>
+    <version>1.4.3</version>
   </parent>
   <artifactId>i18n-core</artifactId>
   <name>ForgeRock I18N Core</name>
