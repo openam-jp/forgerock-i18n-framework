@@ -30,7 +30,7 @@
   <parent>
     <artifactId>i18n-framework</artifactId>
     <groupId>jp.openam.commons</groupId>
-    <version>1.4.3-SNAPSHOT</version>
+    <version>1.4.3</version>
   </parent>
   <artifactId>i18n-slf4j</artifactId>
   <name>ForgeRock I18N SLF4J Support</name>
