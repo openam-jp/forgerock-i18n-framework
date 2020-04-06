@@ -21,7 +21,7 @@
  ! CDDL HEADER END
  !
  !      Copyright 2011 ForgeRock AS
- !      Portions Copyrighted 2019 Open Source Solution Technology Corporation
+ !      Portions Copyrighted 2019-2020 Open Source Solution Technology Corporation
  !      Portions Copyrighted 2019 OGIS-RI Co., Ltd.
  !    
  -->
@@ -30,7 +30,7 @@
   <parent>
     <artifactId>i18n-framework</artifactId>
     <groupId>jp.openam.commons</groupId>
-    <version>1.4.3</version>
+    <version>1.4.4-SNAPSHOT</version>
   </parent>
   <artifactId>i18n-slf4j</artifactId>
   <name>ForgeRock I18N SLF4J Support</name>
