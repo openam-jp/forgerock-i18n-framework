@@ -23,7 +23,7 @@
   ! CDDL HEADER END
   !
   !      Copyright 2011 ForgeRock AS
-  !      Portions Copyrighted 2019-2020 Open Source Solution Technology Corporation
+  !      Portions Copyrighted 2019-2022 OSSTech Corporation
   !      Portions Copyrighted 2019 OGIS-RI Co., Ltd.
   !    
 -->
@@ -50,6 +50,33 @@
     <developerConnection>scm:git:git@github.com:openam-jp/forgerock-i18n-framework.git</developerConnection>
     <url>https://github.com/openam-jp/forgerock-i18n-framework</url>
   </scm>
+  <repositories>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/openam-jp/forgerock-i18n-framework</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/openam-jp/forgerock-i18n-framework</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/openam-jp/forgerock-i18n-framework</url>
+    </repository>
+  </distributionManagement>
   <modules>
     <module>i18n-maven-plugin</module>
     <module>i18n-core</module>
