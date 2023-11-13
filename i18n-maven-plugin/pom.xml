@@ -21,7 +21,7 @@
  ! CDDL HEADER END
  !
  !      Copyright 2011 ForgeRock AS
- !      Portions Copyrighted 2019 Open Source Solution Technology Corporation
+ !      Portions Copyrighted 2019-2023 OSSTech Corporation
  !      Portions Copyrighted 2019 OGIS-RI Co., Ltd.
  !    
  -->
@@ -30,7 +30,7 @@
   <parent>
     <groupId>jp.openam.commons</groupId>
     <artifactId>i18n-framework</artifactId>
-    <version>1.4.3</version>
+    <version>1.4.3.1</version>
   </parent>
   <artifactId>i18n-maven-plugin</artifactId>
   <packaging>maven-plugin</packaging>
